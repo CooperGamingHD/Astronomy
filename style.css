@@ -1,15 +1,256 @@
+.body{
+  background-color: lightblue;
+}
+
+.navbar{
+  margin: auto;
+  font-size: 20px;
+  padding: 10px 80px;
+  background-color: #2b0117;
+}
+
+.navbar-nav li{
+  padding-left: 40px;
+  color: black;
+}
+
+.navbar:hover {
+  color:purple;
+}
+
+e
+.container-fluid{
+  margin: 0 40px 0 40px;
+  padding-left
+  border-bottom: purple 10px;
+}
+
+.jumbotron{
+  background-color: #560c4f;
+  color: white;
+  margin: 70px 20px 20px 20px;
+  display: block;
+}
+.img-circle{
+  border-radius: 50%;
+  width: 300px;
+  height:300px;
+  display: block;
+  margin: auto;
+}
+.img-responsive{
+  padding: 20px;
+  display: block;
+  margin: auto;
+  opacity: 1; 
+} 
+
+.img-responsive:hover { 
+  opacity: 0.7;
+  border: solid, red, 2px; 
+  box-shadow: 0px 0px 5px red;
+}
+
+
+
+.intro{
+  text-align: center;
+}
+
+#portfolio{
+  text-align: center;
+}
+
+.portfolio-img{
+ padding: 40px 10px 40px 10px;
+  margin: auto;
+}
+
+#contact{
+  text-align: center;
+}
+
+#footer{
+  text-align: center;
+}
+
+#footer ul li{
+  display: inline-block;    
+
+}
+
+.para{
+  background-color:white;
+  color:black;
+  margin:70px 20px 20px 20px;
+  display:block;
+  font-family:verdana;
+}
+
+.bluehead{
+  color: lightblue;
+  font-family: Georgia;
+  font-size: 40px;
+}
+
+p2{
+  color:red;
+}
+
+h4{
+  color: lightblue;
+  font-family: verdana;
+  font-size: 18px;
+}
+
+input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+
+
+body {
+    background:#bf5c71 url('body-bg.jpg');
+}
+ 
+.clearfix:after {
+    display:block;
+    clear:both;
+}
+ 
+/*----- Menu Outline -----*/
+.menu-wrap {
+    width:100%;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+    background:#3e3436;
+}
+ 
+.menu {
+    width:1000px;
+    margin:0px auto;
+}
+ 
+.menu li {
+    margin:0px;
+    list-style:none;
+    font-family:'Ek Mukta';
+}
+ 
+.menu a {
+    transition:all linear 0.15s;
+    color:#919191;
+}
+ 
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color:#be5b70;
+}
+ 
+.menu .arrow {
+    font-size:11px;
+    line-height:0%;
+}
+ 
+/*----- Top Level -----*/
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:19px;
+}
+ 
+.menu > ul > li > a {
+    padding:10px 40px;
+    display:inline-block;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+}
+ 
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background:#2e2728;
+}
+ 
+/*----- Bottom Level -----*/
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+ 
+.sub-menu {
+    width:160%;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#2e2728;
+}
+ 
+.sub-menu li {
+    display:block;
+    font-size:16px;
+}
+ 
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+}
+ 
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background:#3e3436;
+}
+
+.icon-bar {
+    width: 100%; /* Full-width */
+    background-color: #555; /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 20%; /* Equal width (5 icons with 20% width each = 100%)
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+}
+
+.active {
+    background-color: #4CAF50; /* Add an active/current color */
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    background-color: #232322;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
+
 h2{
-	font-family: verdana;
-	font-size: 50px;
+  font-color:lightblue;
 }
-
-html{
-	color: gold;
-	background-color: black;
-}
-
-h1{
-	font-family: verdana
-	font-size: 24px;
-}
-
